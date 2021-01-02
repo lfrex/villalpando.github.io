@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+}
+
+.head ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.head li {
+    padding: 10px;
+}
+
+.head img {
+    height: 20px;
+    padding: 10px;
+}
+
+main {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.aside1 {
+    width: 500px;
+    padding-left: 20px;
+    padding-right: 30px;
+}
+.aside1 p {
+    padding-top: 0px;
+}
+
+.aside2 {
+    padding-right: 30px;
+    align-content: space-around;
+}
+
+.aside2 p {
+    padding-bottom: 10px;
+}
+.profile p {
+    padding-bottom: 50px;
+}
+
+p, li, a {
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    padding-top: 30px;
+}
